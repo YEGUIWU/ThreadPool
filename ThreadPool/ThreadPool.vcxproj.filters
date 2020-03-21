@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TaskQueue">
+      <UniqueIdentifier>{2c05b628-64e8-497b-835c-8088c81f8c6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TaskQueue\link_list.c">
+      <Filter>TaskQueue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TaskQueue\link_list.h">
+      <Filter>TaskQueue</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
